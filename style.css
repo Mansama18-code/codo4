@@ -9,15 +9,282 @@
     }
 
     /*----------------- HEADER ----------------*/
+
+
     header {
         display: block;
         margin: 0 auto;
        }    
+
+
+
+/*--------------------- MOBILE & TABLET--------------------*/
+@media (max-width: 919px) { 
+
+    .navbar {
+
+    background-color: rgb(57, 57, 61);
+
+    }
+
+    .imagen-fondo {
+        width: 100%;
+        height: 720px;
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        background-image: url(img/ba1.jpg);
+       
+        overflow: hidden;
+  
+    }
+
+    
+    .imagen-fondo::before {
+        content: " ";
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(0,0,0,0.6);
+
+    }
+
+    .fondo {
+        display: block;
+        text-align: right;
+        padding: 30px;
+        width: 100%;
+        height: 500px;
+        color: #FFFFFF;
+        opacity: 1;
+        position: relative;
+    }
+
+    .fondo h1, p {
+        
+        margin-left: 10px;
+    }
+    .fondo p {
+
+        font-size: 20px;
+    }
+
+    .botones {
+
+        display: flex;
+        justify-content: end;
+        
+        
+        
+    }
+    .botones a {
+        text-decoration: none;
+        
+    }
+
+    #boton1 {
+        
+        text-align: center;
+        border: 1px solid;
+        border-color: white;
+        border-radius: 10px;
+        color: white;
+        width: 150px;
+        
+    }
+
+    #boton2 {
+        text-align: center;
+       
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+        width: 150px;
+        margin-left: 10px;
+    }
+
+
+   
+
+  .oradores {
+
+    display: block;
+    margin: 0 auto;
+    
+    
+
+}
+
+.card {
+    width: 92%;
+    margin: 20px;
+
+}
+
+.card-img-top {
+
+    display: block;
+    margin: 0 auto;
+}
+
+.etiqueta {
+
+    margin-left: 30px;
+    margin-top: 30px;
+} 
+
+.nombres {
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.otro-div {
+    display: block;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color: rgb(31, 31, 48);
+    color: #FFFFFF;
+
+  }
+
+.otro-div a {
+
+    text-decoration: none;
+}
+
+/*  FORMULARIO */
+.formulario {
+
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+
+    width: 100%;
+    height: 100px;
+
+}
+
+input[type=button]{
+    background-color: rgb(162, 222, 89);
+    color: white;
+    border-radius: 5px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+ 
+
+/*----------------- FOOTER ----------------*/   
+  
+  .navbar2 {
+    display: block;
+    padding: 20px;
+    background-color: rgb(2, 52, 85);
+    height: 100px;
+
+  }
+
+  .navbar2 a{
+
+    text-decoration: none;
+  }
+  .ubicacion {
+    
+    display: block;
+   
+    
+
+  }
+
+  .imagen-hono {
+    width: 100%; 
+    height: 250px;
+
+
+  }
+
+  
+
+  #boton3 {
+    
+    text-align: center;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    
+}
+
+.enlaces {
+
+    display:inline-block;
+    align-items:start;
+    justify-content: flex-start;
+   
+}
+
+.enlaces a {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+ /*--------------------- DESKTOP -----------------*/
+    @media (min-width: 920px) {
+       
+    
     .navbar {
 
         background-color: rgb(57, 57, 61);
 
     }
+
+    .collapse {
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
     .container {
 
         display: flex;
@@ -124,7 +391,7 @@
     }
 
     .card {
-
+        width: 18rem;
         margin: 20px;
 
     }
@@ -182,7 +449,9 @@
         height: 100px;
 
     }
-
+    .palabras {
+        padding-right:450px;
+    }
     input[type=button]{
         background-color: rgb(162, 222, 89);
         color: white;
@@ -194,7 +463,11 @@
         width: 50%;
       }
 
-     
+      .imagen-hono {
+      
+        width: 100%;
+        height: 400px;
+      }
 
 /*----------------- FOOTER ----------------*/   
       
@@ -216,9 +489,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%; 
+        height: 400px;
 
       }
-
+     
       
 
       #boton3 {
@@ -232,8 +507,15 @@
         
     }
     
+    
+
     .enlaces a {
 
         padding-left: 30px;
         padding-right: 30px;
     }
+   
+      }
+
+
+

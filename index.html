@@ -16,23 +16,37 @@
 <body>
 
     <header>
-      <nav class="navbar">
+      <nav class="navbar navbar-expand-lg ">
         <div class="container">
-        <div>
           <a class="navbar-brand" href="index.html">
             <img src="img/codoacodo.png" alt="Codo A Codo" width="100" height="60"> <span style="color:white;"> Conf Bs As </span>
           </a>
-          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: white; font-weight: bold;">La Conferencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; ">Los Oradores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white; ">El Lugar y La Fecha</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" style="color: white; ">Conviertete en Mentor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" style="color: green; ">Comprar Tickets</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div>
-          <a href="#" style="color: white; font-weight: bold;">La Conferencia</a>
-          <a href="#" style="color: white;">Los Oradores</a>
-          <a href="#" style="color: white;">El Lugar y la Fecha</a>
-          <a href="#" style="color: white;">Conviertete en Mentor</a>
-          <a href="#" style="color: green;">Comprar Tickets</a>
-        </div>
-      </div>
       </nav>
+
+      
       <div class="imagen-fondo">
         <div class="fondo">
           <h1> Conf Bs As</h1>
@@ -52,7 +66,7 @@
     <main> 
       <h3 style="text-align: center; margin-top: 20px;"> <span style="font-size: 14px;"> CONOCE A LOS </span> <br>ORADORES</h3>
       <div class="oradores">
-        <div class="card" style="width: 18rem;">
+        <div class="card" >
           <img src="img/steve.jpg" class="card-img-top" alt="Steve" style="width: 285px; height: 285px;">
          <div> 
             <div class="etiqueta">
@@ -66,7 +80,7 @@
          </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
+        <div class="card" >
           <img src="img/bill.jpg" class="card-img-top" alt="Bill" style="width: 285px; height: 285px;">
           <div> 
             <div class="etiqueta">
@@ -80,7 +94,7 @@
           </div>
         </div>
 
-        <div class="card" style="width: 18rem; ">
+        <div class="card"  >
           <img src="img/ada.jpeg" class="card-img-top" alt="Ada" style="width: 285px; height: 285px;">
           <div>
             <div class="etiqueta">
@@ -96,7 +110,7 @@
 
       </div>
       <div class="ubicacion">
-        <img src="img/honolulu.jpg" style="width: 100%; height: 400px;">
+        <img src="img/honolulu.jpg" class="imagen-hono">
         <div class="otro-div">
           <h2>Bs As - Octubre</h2>
           <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la 
@@ -117,7 +131,7 @@
             <input type="text" placeholder="Nombre">
             <input type="text" placeholder="Apellido"> 
             <textarea placeholder="¿Sobre qué quieres hablar?"> </textarea> <br>
-            <p style="color: rgb(129, 129, 129);padding-right:450px;">Recuerda incluir un titulo para tu charla</p>
+            <p class="palabras" style="color: rgb(129, 129, 129);" >Recuerda incluir un titulo para tu charla</p>
             <input type="button" value="Enviar">
           </form>
         </div>
