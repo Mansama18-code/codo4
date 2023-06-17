@@ -229,6 +229,7 @@ input[type=button]{
 
   
 
+  
   #boton3 {
     
     text-align: center;
@@ -424,11 +425,19 @@ input[type=button]{
         text-decoration: none;
     }
 
+    .se-orador {
+
+        text-align: center;
+    }
+
     /*  FORMULARIO */
     .formulario {
 
-        display: block;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+       
         width: 100%;
         margin-top: 30px;
         margin-bottom: 30px;
@@ -437,21 +446,28 @@ input[type=button]{
     }
 
     input[type=text] {
-        width: 25%;
+        width: 48%;
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
     }
 
+    
+
     textarea {
 
-        width: 50%;
+        width: 97%;
         height: 100px;
 
     }
+
+    
+
+
     .palabras {
         padding-right:450px;
     }
+
     input[type=button]{
         background-color: rgb(162, 222, 89);
         color: white;
@@ -460,13 +476,104 @@ input[type=button]{
         text-decoration: none;
         margin: 4px 2px;
         cursor: pointer;
-        width: 50%;
+        width: 97%;
       }
+
+    
 
       .imagen-hono {
       
         width: 100%;
         height: 400px;
+      }
+
+/*--- Tipo de Compra ---*/
+
+
+.comprarTicket {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.estudiante {
+    padding: 20px;
+    width: 16%;
+    margin: 5px;
+    border-color: blue;
+    border-style: solid;
+
+
+}
+.trainne {
+    padding: 20px;
+    width: 16%;
+    margin: 5px;
+    border-color: rgb(0, 229, 255);
+    border-style: solid;
+    
+}
+.junior {
+    padding: 20px;
+    width: 16%;
+    margin: 5px;
+    border-color: rgb(255, 242, 0);
+    border-style: solid;
+    
+}
+
+/*------ Formulario2 -----*/
+input[type=number] {
+    width: 48%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+      #celectro {
+
+        width: 97%;
+    }
+
+    .nombres-texto {
+       width: 48%;
+    }
+
+    .seleccion {
+
+        width: 48%;
+        padding: 15px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+
+    }
+
+    .totalaPagar {
+        display: flex;
+        align-items: center;
+        width: 97%;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: rgb(153, 207, 255);
+        color: rgb(53, 122, 212);
+
+    }
+    #resumende {
+
+        align-items: center;
+    }
+
+    #button2 {
+        background-color: rgb(162, 222, 89);
+        color: white;
+        border-radius: 5px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 48%;
       }
 
 /*----------------- FOOTER ----------------*/   
