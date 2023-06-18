@@ -19,7 +19,7 @@
 
 
 /*--------------------- MOBILE & TABLET--------------------*/
-@media (max-width: 919px) { 
+@media (min-width: 50px) and (max-width: 919px) { 
 
     .navbar {
 
@@ -159,14 +159,22 @@
 }
 
 /*  FORMULARIO */
+
+.forma {
+    width: 98%;
+
+}
+
 .formulario {
 
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 20px;
 
 
 }
@@ -196,7 +204,109 @@ input[type=button]{
     width: 100%;
   }
 
+
+  /*--- Tipo de Compra ---*/
+
+
+.comprarTicket {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.estudiante {
+    padding: 20px;
+    width: 98%;
+    margin: 5px;
+    border-color: blue;
+    border-style: solid;
+
+
+}
+.trainne {
+    padding: 20px;
+    width: 98%;
+    margin: 5px;
+    border-color: rgb(0, 229, 255);
+    border-style: solid;
+    
+}
+.junior {
+    padding: 20px;
+    width: 98%;
+    margin: 5px;
+    border-color: rgb(255, 242, 0);
+    border-style: solid;
+    
+}
+
+  /*------ Formulario2 -----*/
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+      #celectro {
+
+        width: 100%;
+    }
+
+    .nombres-texto {
+       width: 100%;
+    }
+
+    .seleccion {
+
+        width: 100%;
+        padding: 15px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+
+    }
+
+    .totalaPagar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: rgb(153, 207, 255);
+        color: rgb(53, 122, 212);
+
+    }
+    #resumende {
+
+        align-items: center;
+    }
+
+    #button2 {
+        background-color: rgb(162, 222, 89);
+        color: white;
+        border-radius: 5px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      #obligatorio {
+        display: none;
+        color: red;
+        
+
+
+      }
  
+      .venta {
+        width: 100%;
+        text-align: center;
+      }
 
 /*----------------- FOOTER ----------------*/   
   
@@ -431,6 +541,12 @@ input[type=button]{
     }
 
     /*  FORMULARIO */
+
+    .forma {
+        width: 50%;
+    
+    }
+
     .formulario {
 
         display: flex;
@@ -488,6 +604,7 @@ input[type=button]{
       }
 
 /*--- Tipo de Compra ---*/
+
 
 
 .comprarTicket {
@@ -574,6 +691,14 @@ input[type=number] {
         margin: 4px 2px;
         cursor: pointer;
         width: 48%;
+      }
+
+      #obligatorio {
+        display: none;
+        color: red;
+
+
+
       }
 
 /*----------------- FOOTER ----------------*/   

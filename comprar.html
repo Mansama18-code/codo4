@@ -72,32 +72,37 @@
 
       </div>
       <br>
-      <div style="text-align: center;">
+      <div class="venta" style="text-align: center;">
         <p >Venta</p>            
         <p style="font-size: xx-large;">VALOR DEL TICKET $200</p>
       </div>
 
       <div class="formulario">
-        <div style="width: 50%;">
+        <div class="forma" >
             <form  id="myForm"  action=" " method=" ">
-              <input type="text" placeholder="Nombre">
-              <input type="text" placeholder="Apellido" > 
+              <input type="text" placeholder="Nombre" id="nombre-form">
               
+              <input type="text" placeholder="Apellido" id="apellido-form"> 
               <input type="text" placeholder="Correo" id="celectro">
               
+              <br><br>
               <label class="nombres-texto">Cantidad</label>
               <label class="nombres-texto">Categoria</label>
               
               <input type="number" placeholder="Cantidad" id="cuantos"> 
               
+             
               <select class="seleccion" id="selecto">
                 <option value="Estudiante">Estudiante</option>
                 <option value="Trainne">Trainne</option>
                 <option value="Junior">Junior</option>
               </select>
-              
+
+              <label class="nombres-texto" id="obligatorio">*Campos Obligatorios</label>
+              <br><br>
+
               <label class="totalaPagar">  Total a Pagar: $ <span id="resumende"></span> </label>
-          
+              <br>
               <input type="button" onclick= "borrar()" id ="button2" value="Borrar">
               <input type="button" onclick= "resumen()" id ="button2" value="Resumen">
             </form>
