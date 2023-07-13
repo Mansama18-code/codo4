@@ -860,7 +860,14 @@ input[type=number] {
     .centro {
 
         padding: 30px;
+<<<<<<< HEAD
         text-align: center;
+=======
+<<<<<<< HEAD
+        text-align: center;
+=======
+>>>>>>> fbced1760857449d47f68ca31b175dbcea50abe4
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
 
 
 
@@ -880,6 +887,10 @@ input[type=number] {
         border-color: rgb(1, 60, 1);
         background-color: rgb(153, 255, 153);
         width: 100%;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
        
         text-decoration: none;
         font-size: 4em;
@@ -898,6 +909,16 @@ input[type=number] {
         width: 100%;
         margin-top: 25px;
         
+<<<<<<< HEAD
+=======
+=======
+        height: 600px;
+
+        font-size: 4em;
+
+
+>>>>>>> fbced1760857449d47f68ca31b175dbcea50abe4
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
 
     }
 
@@ -986,6 +1007,7 @@ input[type=number] {
         margin-bottom: 15px;
         height: 50px;
         width: 100%;
+<<<<<<< HEAD
 
         padding: 12px 20px;
         margin: 8px 0;
@@ -1031,6 +1053,122 @@ input[type=number] {
         border-style: solid;
         border-width: 2px;
 
+=======
+
+<<<<<<< HEAD
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+=======
+      .diseno {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 750px;
+    }
+    
+    .diseno-form {
+    
+        display: block;
+        padding: 20px;
+        background-color: rgb(209, 209, 209);
+        width: 30%;
+        border-radius: 20px;
+    
+    }
+    
+    .formula {
+    
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        
+    
+    
+    }
+    
+    
+    .formato2 {
+    
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 30px;
+        width: 100%;
+    
+>>>>>>> fbced1760857449d47f68ca31b175dbcea50abe4
+    
+    }
+    
+    .botonLogin {
+    
+        margin-top: 15px;
+        margin-bottom: 15px;
+<<<<<<< HEAD
+=======
+        width: 100%;
+    
+    }
+    
+    #error {
+    
+        display: none;
+        color: red;
+    
+    }
+    
+    
+    /*----  TABLA ----*/
+
+    .tabla-inscriptos {
+
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 10px;
+       
+        border-style: solid;
+        border-width: 2px;
+
+    }
+    
+
+>>>>>>> fbced1760857449d47f68ca31b175dbcea50abe4
+
+        background-color: rgb(162, 222, 89);
+        color: white;
+        border-radius: 5px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+    
+    }
+    
+    #error {
+    
+        display: none;
+        color: red;
+    
+    }
+    
+    
+    /*----  TABLA ----*/
+
+    .tabla-inscriptos {
+
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+        padding: 10px;
+       
+        border-style: solid;
+        border-width: 2px;
+
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
     }
     
 

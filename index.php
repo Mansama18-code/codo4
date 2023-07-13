@@ -109,10 +109,15 @@
               <input type="text" class="reg" placeholder="Apellido" name="apellido"> 
               <textarea placeholder="¿Sobre qué quieres hablar?" name="explicacion"> </textarea> <br>
               <p class="palabras" style="color: rgb(129, 129, 129);" >Recuerda incluir un titulo para tu charla</p>
+<<<<<<< HEAD
               
               <input type="submit" class="botonR" value="Enviar" name="enviar">
             </form>
             <?php echo $mensaje; ?>
+=======
+              <input type="submit" class="botonR" value="Enviar">
+            </form>
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
           </div>
         </div>
 

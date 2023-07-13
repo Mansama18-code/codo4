@@ -44,7 +44,15 @@ function resumen(){
     total = asistencia2 * costo;
 
     
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
 
     return document.getElementById("resumende").innerHTML=total;
 }
+=======
+>>>>>>> fbced1760857449d47f68ca31b175dbcea50abe4
 
+    return document.getElementById("resumende").innerHTML=total;
+}

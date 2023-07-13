@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
 <!DOCTYPE html>
 <html >
 
@@ -65,4 +69,39 @@
     </body>
 
     <script src="script.js"></script>
+<<<<<<< HEAD
 </html> 
+=======
+</html> 
+=======
+<?php
+
+    $admin = "manuel@baires.com";
+    $passAdm = "codoacodo1";
+
+    
+
+
+        if($_POST['nombre'] == $admin && $_POST['passwor'] == $passAdm) {
+
+            require_once("registrados.php");
+
+        }  else { 
+
+            echo "<h2> Error de ingreso </h2>";
+?> 
+            
+            <br> <input type="button" onclick="document.location.href='index.html';" value="Back" name="button" class="btn">
+    
+<?php
+
+        }
+
+
+    
+
+
+
+?>
+>>>>>>> fbced1760857449d47f68ca31b175dbcea50abe4
+>>>>>>> 09e5c9801306345ed0256dfe0a3c2219ba86fe93
