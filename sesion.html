@@ -48,69 +48,23 @@
       </nav>
 
       </header>
-      <br>
-      <div class="comprarTicket" id="ticket">
-        <div class="estudiante">
-          <p style="font-weight: bold; font-size: larger;">Estudiante</p>
-          <p>Tiene un descuento</p>
-          <p style="font-weight: bold; font-size: larger;">80%</p>
-          <p style="color: rgb(152, 152, 152); font-size: small;">*Presentar Documentación</p>
+      <main>
+        <div class="diseno">
+            <div class="diseno-form">
+                <form action="inscribidos.php" method="post"> 
+                    <label class="formula">Mail or User:</label>
+                    <input type="text" class="formato2" id="usuario" name="nombre"> 
+                    <label class="formula">Contraseña:</label>    
+                    <input type="password" class="formato2" id="contrasena" name="passwor"> 
+                    <label class="formula" id="error"></label>    
+                    <input type="submit" class="botonLogin"  value="INICIAR SESION"> 
+    
+                </form>
+            </div>
         </div>
 
-        <div class="trainne">
-          <p style="font-weight: bold; font-size: larger;">Trainne</p>
-          <p>Tiene un descuento</p>
-          <p style="font-weight: bold; font-size: larger;">50%</p>
-          <p style="color: rgb(152, 152, 152); font-size: small;">*Presentar Documentación</p>
-        </div>
+      </main>
 
-        <div class="junior">
-          <p style="font-weight: bold; font-size: larger;">Junior</p>
-          <p>Tiene un descuento</p>
-          <p style="font-weight: bold; font-size: larger;">15%</p>
-          <p style="color: rgb(152, 152, 152); font-size: small;">*Presentar Documentación</p>
-        </div>
-
-      </div>
-      <br>
-      <div class="venta" style="text-align: center;">
-        <p >Venta</p>            
-        <p style="font-size: xx-large;">VALOR DEL TICKET $200</p>
-      </div>
-
-      <div class="formulario">
-        <div class="forma" >
-            <form  id="myForm"  action="registro.php" method="post">
-              <input type="text" class="reg" placeholder="Nombre" name="nombre" id="nombre-form">
-              
-              <input type="text" class="reg" placeholder="Apellido" name="apellido" id="apellido-form"> 
-              <input type="text" class="reg" placeholder="Correo" name="correo" id="celectro">
-              
-              <br><br>
-              <label class="nombres-texto">Cantidad</label>
-              <label class="nombres-texto">Categoria</label>
-              
-              <input type="number" placeholder="Cantidad" id="cuantos"> 
-              
-             
-              <select class="seleccion" name="categoria" id="selecto">
-                <option value="Estudiante">Estudiante</option>
-                <option value="Trainne">Trainne</option>
-                <option value="Junior">Junior</option>
-              </select>
-
-              <label class="nombres-texto" id="obligatorio">*Campos Obligatorios</label>
-              <br><br>
-
-              <label class="totalaPagar">  Total a Pagar: $ <span id="resumende" name="resumen"></span>  </label>
-              <br>
-              <input type="button" onclick= "borrar()" id ="button2" value="Borrar">
-              <input type="button" onclick= "resumen()" id ="button2" value="Resumen">
-              
-              <input type="submit"  class="botonR" value="INSCRIBIRME">
-            </form>
-          </div>
-      </div>
 
       <footer>
         <nav class="navbar2">
