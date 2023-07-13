@@ -19,7 +19,7 @@
 
 
 /*--------------------- MOBILE & TABLET--------------------*/
-@media (min-width: 50px) and (max-width: 919px) { 
+@media (min-width: 50px) and (max-width: 1080px) { 
 
     .navbar {
 
@@ -179,7 +179,7 @@
 
 }
 
-input[type=text] {
+.reg {
     width: 100%;
     padding: 12px 10px;
     margin: 8px 0;
@@ -193,16 +193,7 @@ textarea {
 
 }
 
-input[type=button]{
-    background-color: rgb(162, 222, 89);
-    color: white;
-    border-radius: 5px;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 100%;
-  }
+
 
 
   /*--- Tipo de Compra ---*/
@@ -294,6 +285,18 @@ input[type=number] {
         cursor: pointer;
         width: 100%;
       }
+      
+      .botonR {
+        background-color: rgb(162, 222, 89);
+        color: white;
+        border-radius: 5px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+        
+      }
 
       #obligatorio {
         display: none;
@@ -307,6 +310,40 @@ input[type=number] {
         width: 100%;
         text-align: center;
       }
+
+
+/*----------------- INSCRIPTION ----------------*/   
+.centro {
+
+    padding: 30px;
+
+
+
+}
+.inscripto-ya {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    padding: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 30px;
+    color: #004b12;
+    border-color: rgb(1, 60, 1);
+    background-color: rgb(153, 255, 153);
+    width: 100%;
+    height: 600px;
+
+    font-size: 4em;
+
+
+
+}
+
+
 
 /*----------------- FOOTER ----------------*/   
   
@@ -366,6 +403,103 @@ input[type=number] {
     
 }
 
+.diseno {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 750px;
+
+    background-color: rgb(31, 31, 48);
+}
+
+.diseno-form {
+
+    display: block;
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+    width: 85%;
+    
+    border-radius: 20px;
+
+}
+
+.formula {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+
+}
+
+
+.formato2 {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 100%;
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+.botonLogin {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background-color: rgb(162, 222, 89);
+    color: white;
+    border-radius: 5px;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+#error {
+
+    display: none;
+    color: red;
+
+}
+
+
+/*----  TABLA ----*/
+
+.tabla-inscriptos {
+
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    padding: 10px;
+   
+    border-style: solid;
+    border-width: 2px;
+
+}
+
+
+.centrar-texto {
+
+
+    text-align: center;
+
+    padding: 40px;
+}
+
+
+
+
+
   }
 
 
@@ -379,8 +513,17 @@ input[type=number] {
 
 
 
+
+
+
+
+
+
+
+
+
  /*--------------------- DESKTOP -----------------*/
-    @media (min-width: 920px) {
+    @media (min-width: 1081px) {
        
     
     .navbar {
@@ -561,7 +704,7 @@ input[type=number] {
 
     }
 
-    input[type=text] {
+    .reg {
         width: 48%;
         padding: 12px 20px;
         margin: 8px 0;
@@ -584,7 +727,7 @@ input[type=number] {
         padding-right:450px;
     }
 
-    input[type=button]{
+   /* input[type=button]{
         background-color: rgb(162, 222, 89);
         color: white;
         border-radius: 5px;
@@ -594,7 +737,7 @@ input[type=number] {
         cursor: pointer;
         width: 97%;
       }
-
+*/
     
 
       .imagen-hono {
@@ -693,6 +836,18 @@ input[type=number] {
         width: 48%;
       }
 
+      .botonR {
+        background-color: rgb(162, 222, 89);
+        color: white;
+        border-radius: 5px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 97%;
+        
+      }
+
       #obligatorio {
         display: none;
         color: red;
@@ -700,6 +855,52 @@ input[type=number] {
 
 
       }
+
+/*----------------- INSCRIPTION ----------------*/   
+    .centro {
+
+        padding: 30px;
+        text-align: center;
+
+
+
+    }
+    .inscripto-ya {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+        padding: 20px;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 30px;
+        color: #004b12;
+        border-color: rgb(1, 60, 1);
+        background-color: rgb(153, 255, 153);
+        width: 100%;
+       
+        text-decoration: none;
+        font-size: 4em;
+
+
+
+    }
+
+    .linka {
+        
+        
+        text-decoration: none;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+        width: 100%;
+        margin-top: 25px;
+        
+
+    }
+
 
 /*----------------- FOOTER ----------------*/   
       
@@ -747,7 +948,104 @@ input[type=number] {
         padding-right: 30px;
     }
    
-      }
+      
+
+      .diseno {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 750px;
+
+        background-color: rgb(31, 31, 48);
+    }
+    
+    .diseno-form {
+    
+        display: block;
+        padding: 20px;
+        background-color: rgb(209, 209, 209);
+        width: 40%;
+        border-radius: 20px;
+    
+    }
+    
+    .formula {
+    
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+    
+    }
+    
+    
+    .formato2 {
+    
+        margin-top: 15px;
+        margin-bottom: 15px;
+        height: 50px;
+        width: 100%;
+
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    
+    }
+    
+    .botonLogin {
+    
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+        background-color: rgb(162, 222, 89);
+        color: white;
+        border-radius: 5px;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 100%;
+    
+    }
+    
+    #error {
+    
+        display: none;
+        color: red;
+    
+    }
+    
+    
+    /*----  TABLA ----*/
+
+    .tabla-inscriptos {
+
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+        padding: 10px;
+       
+        border-style: solid;
+        border-width: 2px;
+
+    }
+    
+
+    .centrar-texto {
+        text-align: center;
+
+        padding: 40px;
+    }
+
+    
+    
+    
+    
+    
 
 
 
+    }
