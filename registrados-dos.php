@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+    
     <?php
     
     
@@ -36,6 +36,7 @@
                 <th scope="col">Cantidad</th>
                 <th scope="col">Categoria</th>
                 
+                
             </tr>
             </thead>
 
@@ -52,6 +53,8 @@
                     <td><?php echo $rows['correo'];?></td>
                     <td><?php echo $rows['cantidad'];?></td>
                     <td><?php echo $rows['categoria'];?></td>
+                    
+                    
                    
                 </tr>
                 <?php
@@ -98,9 +101,32 @@
         </table>
 
     </div>
-
-    <div class="salir">
-        <a href="./sesion.php">CERRAR SESION</a>
+    <div class="formulario">
+        <div class="forma" >
+                <form  id="myForm2" action="borrar-orador.php" method="post">
+                <input type="text" class="reg" placeholder="Nombre" name="nombre" id="nombre-form">
+                <input type="text" class="reg" placeholder="Apellido" name="apellido" id="apellido-form"> 
+                
+                <input type="submit"  class="botonR" value="BORRAR ORADOR">
+                </form>
+            </div>
     </div>
+    <div class="formulario">
+        <div class="forma" >
+                <form  id="myForm3" action="editar-orador.php" method="post">
+                <input type="text" class="reg" placeholder="Nombre" name="nombre" id="nombre-form">
+                <input type="text" class="reg" placeholder="Apellido a corregir" name="apellido" id="apellido-form"> 
+                
+                <input type="submit"  class="botonR" value="EDITAR ORADOR">
+                </form>
+            </div>
+    </div>
+        <div class="salir">
+            <a href="./sesion.php">CERRAR SESION</a>
+        </div>
+    
+        
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </html>
